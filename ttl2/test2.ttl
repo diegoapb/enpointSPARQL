@@ -1,0 +1,35 @@
+@prefix bbr: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix fo: <http://www.w3.org/1999/XSL/Format#> .
+@prefix literal: <http://www.essepuntato.it/2010/06/literalreification/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ejemplo.com/articulos/10.1038/s41467-018-07998-x> a bbr:BibliographicResource ;
+    dc:created 2019 ;
+    bbr:BibliographicResource.Author dc:creator.Zhu_G ,dc:creator.Xu_Y ,dc:creator.Li_J ;
+    dc:description "Wilms tumor gene on the X chromosome (WTX) is a putative tumor suppressor gene in Wilms tumor, but its expression and functions in other tumors are unclear. Colorectal cancer (CRC) is the third leading cause of cancer-related deaths in women and the second leading cause in men in the United States. We demonstrated that WTX frequently lost in CRC which was highly correlated with cell proliferation, tumor invasion and metastasis. Mechanistically, WTX loss disrupts the interaction between RhoGDIα and CDC42 by losing of the binding with RhoGDIα and triggers the activation of CDC42 and its downstream cascades, which promotes CRC development and liver metastasis. The aberrant upregulation of miR-20a/miR-106a were identified as the reason of WTX loss in CRC both in vivo and in vitro. These study defined the mechanism how miR-20a/miR-106a-mediated WTX loss regulates CRC progression and metastasis, and provided a potential therapeutic target for preventing CRC progression. © 2019, The Author(s)." ;
+    dc:identifier "10.1038/s41467-018-07998-x" ;
+    dc:title "Mir20a/106a-WTX axis regulates RhoGDIa/CDC42 signaling and colon cancer progression" ;
+    literal:hasLiteralValue "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85059828959&doi=10.1038%2fs41467-018-07998-x&partnerID=40&md5=ae011bcf4bad359445b82c8c6f0caeb9" .
+
+
+<http://ejemplo.com/articulos/10.1038/s41467-019-08304-z> a bbr:BibliographicResource ;
+    dc:created 2019 ;
+    bbr:BibliographicResource.Author dc:creator.Cafri_G , dc:creator.Yossef_R , dc:creator.Pasetto_A ;
+    dc:description "T cells targeting shared oncogenic mutations can induce durable tumor regression in epithelial cancer patients. Such T cells can be detected in tumor infiltrating lymphocytes, but whether such cells can be detected in the peripheral blood of patients with the common metastatic epithelial cancer patients is unknown. Using a highly sensitive in vitro stimulation and cell enrichment of peripheral memory T cells from six metastatic cancer patients, we identified and isolated CD4 + , and CD8 + memory T cells targeting the mutated KRAS G12D and KRAS G12V variants, respectively, in three patients. In an additional two metastatic colon cancer patients, we detected CD8 + neoantigen-specific cells targeting the mutated SMAD5 and MUC4 proteins. Therefore, memory T cells targeting unique as well as shared somatic mutations can be detected in the peripheral blood of epithelial cancer patients and can potentially be used for the development of effective personalized T cell-based cancer immunotherapy across multiple patients. © 2019, This is a U.S. Government work and not under copyright protection in the US; foreign copyright protection may apply." ;
+    dc:identifier "10.1038/s41467-019-08304-z" ;
+    dc:title "Memory T cells targeting oncogenic mutations detected in peripheral blood of epithelial cancer patients" ;
+    literal:hasLiteralValue "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85060555999&doi=10.1038%2fs41467-019-08304-z&partnerID=40&md5=aabd871e516954ac3334a78294cddf9b" .
+
+<http://ejemplo.com/articulos/10.1080/21691401.2018.1557672> a bbr:BibliographicResource ;
+    dc:created 2019 ;
+    bbr:BibliographicResource.Author dc:creator.Pasetto_A , dc:creator.Yossef_R , dc:creator.Xu_Y ;
+    dc:description "The application of layer-by-layer (LbL) approach on nanoparticle surface coating improves the colon-specific drug delivery of insoluble drugs. Here, we aimed to formulate a self-assembled cysteamine-based disulphide cross-linked sodium alginate with LbL self-assembly to improve the delivery of paclitaxel (PCX) to colonic cancer cells. Cysteamine was conjugated to the backbone of oxidized SA to form a core of self-assembled disulphide cross-linked nanospheres. P3DL was selected for PCX loading and fabricated LbL with poly(allylamine hydrochloride) (PAH) and poly(4-styrenesulfonic acid-co-maleic acid) sodium salt (PSSCMA) resulting from characterization and drug release studies. P3DL-fabricated PCX-loaded nanospheres (P3DL/PAH/PSSCMA) exhibited an encapsulation efficiency of 77.1% with cumulative drug release of 45.1%. Dynamic light scattering analysis was reported at 173.6 ± 2.5 nm with polydispersity index of 0.394 ± 0.105 (zeta potential= -58.5 mV). P3DL/PAH/PSSCMA demonstrated a pH-dependent swelling transition; from pH 1 to 7 (102.2% increase). The size increased by 33.0% in reduction response study after incubating with 10 mM glutathione (day 7). HT-29 cells showed high viabilities (86.7%) after treatment with the fabricated nanospheres at 0.8 µg/mL. Cellular internalization was successful with more than 70.0% nanospheres detected in HT-29 cells. Therefore, this fabricated nanospheres may be considered as potential nanocarriers for colon cancer-targeted chemotherapeutic drug delivery." ;
+    dc:identifier "10.1080/21691401.2018.1557672" ;
+    dc:title "Biocompatible disulphide cross-linked sodium alginate derivative nanoparticles for oral colon-targeted drug delivery" ;
+    literal:hasLiteralValue "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85060581478&doi=10.1080%2f21691401.2018.1557672&partnerID=40&md5=a475398ab86f89853a69d4d398eff135" .
