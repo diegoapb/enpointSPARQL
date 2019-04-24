@@ -29,9 +29,10 @@ El apache jena fuseki estara corriendo en el puerto 3030 y podremos acceder medi
 
 Para finalizar debemos crear una nueva base de datos y aqui agregar el archivo *.ttl, en nuestro caso es el archivo "oficial.ttl" el que contiene al rededor de 2000 articulos organizados de acuerdo a su ontologia.
 
+* [Video Guia](httpp   .................) - Como correr entorno SPARQL
+
 ## Prueba la siguiente consulta
 
-Solicita un conteo de los articulos creados en el 2018
 
 ```
 SELECT (COUNT(*)AS ?totalarticles)
@@ -74,7 +75,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
