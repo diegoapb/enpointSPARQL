@@ -29,11 +29,22 @@ El apache jena fuseki estara corriendo en el puerto 3030 y podremos acceder medi
 
 Para finalizar debemos crear una nueva base de datos y aqui agregar el archivo *.ttl, en nuestro caso es el archivo "oficial.ttl" el que contiene al rededor de 2000 articulos organizados de acuerdo a su ontologia.
 
-* [Video Guia](httpp   .................) - Como correr entorno SPARQL
+* [Video_Guia](https://drive.google.com/file/d/1_PiqGZM3J25BJ3_3eJ8h1c-WaIY_3RI0/view?usp=sharing) - Como correr entorno SPARQL
 
 ## Prueba la siguiente consulta
 
+Antes de realizar una consulta debes ingresar los prefijos que posiblemente vas a utilizar
 
+```
+prefix bb: <http://www.snik.eu/ontology/bb/>
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xsd:   <http://www.w3.org/2001/XMLSchema#> 
+prefix fo:    <http://www.w3.org/1999/XSL/Format#> 
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+prefix dc:    <http://purl.org/dc/elements/1.1/> 
+prefix bbr: <http://purl.org/dc/terms/> 
+```
+Consulta los articulos que fueron creados en el año 2018
 ```
 SELECT (COUNT(*)AS ?totalarticles)
 WHERE
@@ -52,52 +63,3 @@ WHERE
 ```
 
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
